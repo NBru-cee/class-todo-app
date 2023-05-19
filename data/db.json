@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Doing assignment"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Participating in programs"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "Doing homework"
+    },
+    {
+      "checked": false,
+      "id": 4
+    }
+  ]
+}
