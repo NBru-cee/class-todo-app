@@ -107,10 +107,14 @@ const App = () => {
                         )}
                         {!fetchError && !loading && (
                               <Content
-                                    items={items.filter((item) =>
-                                          item.item
-                                                .toLowerCase()
-                                                .includes(search.toLowerCase())
+                                    items={items.filter(
+                                          (item) =>
+                                                item.item &&
+                                                item.item
+                                                      .toLowerCase()
+                                                      .includes(
+                                                            search.toLowerCase()
+                                                      )
                                     )}
                                     handleCheck={handleCheck}
                                     handleDelete={handleDelete}
